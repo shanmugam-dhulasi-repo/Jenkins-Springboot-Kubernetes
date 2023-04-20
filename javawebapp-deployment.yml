@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: shanmugamdocker/jenkins-springboot-kubernetes
+      - image: shanmugamdocker/spring-boot-mongo
         name: javawebapp
         ports:
         - name: javawebapp
